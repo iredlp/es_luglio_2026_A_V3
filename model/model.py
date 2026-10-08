@@ -28,3 +28,5 @@ class Model:
     def get_num_edges(self) -> int:
         return self._grafo.number_of_edges()
 
+    #commento per verifica
+
