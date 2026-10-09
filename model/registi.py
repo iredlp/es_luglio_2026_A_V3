@@ -28,4 +28,4 @@ class Regista:
         return False
 
     def __repr__(self):
-        return f"{self.title} ({self.year if self.year is not None else 'N/D'})"
+        return f"{self.name} ({self.date_of_birth if self.date_of_birth is not None else 'N/D'})"
